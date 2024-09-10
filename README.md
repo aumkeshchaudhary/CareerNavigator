@@ -9,11 +9,16 @@ As the Project Head for CareerNavigator, I directed the data processing and feat
 Summary of the Project
 
 Anticipated to refine candidates’ assessment, CareerNavigator, a forthcoming machine learning model, aims to provide reliable predictions on candidates’ employability through comprehensive analysis. The development of the models begins with acquiring the dataset and conducting meticulous data pre-processing to lay a robust foundation. Then comes the model selection, model training, model evaluation, and deployment. Each stage is critical to ensuring the model’s accuracy and reliability. We have efficiently distributed our workload, and below are the detailed work breakdowns of each team member.
+             
              • Harshit Kumar: K-Nearest Neighbour (KNN)
+             
              • Ayush Anand: Support Vector Machine (SVM)
+            
              • Aditya Anand Singh: Kernel SVM and Random Forest
                Classification
+             
              • Md Tanveer: Naive Bayes and CAP Curve
+             
              • Aumkesh Chaudhary: Data Preprocessing,
                Logistic Regression, and Decision Tree Classification
 
@@ -22,13 +27,21 @@ As we approach the end of this project, our collaborative efforts are propelling
 Contents
 
 1. Chapter 1: Introduction
+
 2. Chapter 2: Dataset
+
 3: Importing and Cleaning the Dataset
+
 4: Categorical Encoding
+
 5: Splitting and Feature Scaling
+
 6: Logistic Regression
+
 7: Decision Tree Classification
+
 8: Validation and Deployment
+
 9: Conclusion and Future work
 
 Chapter 1
@@ -45,22 +58,36 @@ Chapter 2
 DATASET
 
 The dataset has been procured from ‘Kaggle’. It contains 73,462 rows and 15 columns. The columns are described below:
+
 • Age: age of the applicant, >35 years old or <35 years old (categorical)
+
 • Accessibility: whether the applicants have access to special tools or features that
   make it easier for people with disabilities to use computers or software
   (categorical)
+
 • EdLevel: education level of the applicant (Undergraduate, Master, PhD...) (categorical)
+
 • Gender: gender of the applicant, (Man, Woman, or NonBinary) (categorical)
+
 • Employment: whether the applicant has ever been employed or not (categorical)
+
 • MainBranch: whether the applicant is a professional developer (categorical)
+
 • MentalHealth: whether the applicant is mentally fit or not (categorical)
+
 • YearsCode: how long the applicant has been coding (integer)
+
 • YearsCodePro: how long the applicant has been coding in a
   professional context, (integer)
+
 • Country: Nationality of the applicant (categorical)
+
 • PreviousSalary: the applicant's previous job salary (float)
+
 • HaveWorkedWith: specific technical skills possessed by the applicant (categorical)
+
 • ComputerSkills: number of computer skills known by the applicant (integer)
+
 • Employed: target variable, whether the applicant has been hired (categorical)
    Source: https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data-human- resource
 
@@ -74,14 +101,17 @@ In this chapter, we delve into the process of importing and cleaning the dataset
 
 • Reading the dataset: I have created a DataFrame named ‘Dataset’ using the pandas library and read the dataset. After reading the dataset, I used 
   the method ‘.info()’ to get an overview of the dataset such as the datatype of the columns and null value.
+
 • Changing the Datatype of the column: There is a column named ‘PreviousSalary’ which contains the values stored as float. So, we will have to 
   convert it into integer value as it would create difficulty in the feature scaling which we will be talking about in the upcoming chapter. I have 
   used ‘.replace()’ function to convert the datatype of the column.
+
 • Categorizing the Countries into Continents: There are more than 190 countries in the Dataset. So, it would become challenging to encode all of them 
   as the categorical encoding creates vectors for each category which drastically increases the dimensionality of the dataset making it extremely 
   difficult to handle and sometimes resulting in crashing the program. Therefore, I have categorized each country by its respective continents, 
   streamlining the dataset for easier management. I had to define a function ‘Countries’, and I used ‘if’ and ‘else’ statements to categorize the 
   countries into each continent, and then created a column named continent in the dataframe (i.e., ‘Dataset’) using that function.
+
 • Dropping the Columns: Some columns in this dataset do not have much significance for our model such as ‘HaveWorkedWith’ which again, if kept, can 
   increase the dimension excessively and the other one is column ‘YearsCodePro’, which is not essential as we already have the column ‘YearsCode’. I 
   have also dropped the column ‘Country as we have created a column for ‘Continents’.
@@ -108,6 +138,7 @@ Navigating through the data-preprocessing phase, we encounter two pivotal stages
   this partition, 80% of data points are allocated to the training set while the remaining 20% are designated to the testing set. But, while doing 
   the splitting part, we could end up with the problem of getting an uneven distribution of the dataset. Therefore, I have used the parameter 
  ‘random_state’ to prevent the dataset from uneven or biased distribution.
+
 • Feature Scaling: In feature scaling, what we do is normalize the dataset into a specific range. Generally, two types of normalizations are used in 
   feature scaling: ‘Min- Max’ or ‘Z-Score’. However, I have used the Z- Score normalization which is the most effective normalization method because 
   of its ability to preserve the original data distribution, effectively handle outliers, and ensure interpretability. In Z-Score normalization, the 
@@ -126,7 +157,7 @@ Here, ‘p’ denotes the probability of the dependent variables being in a part
  • The provided graph illustrates the logistic regression model's characteristic S-shaped curve, 
    known as the sigmoid function.
   
-   To train the Logistic Regression model, I have used the Class ‘LogisticRegression’ from the 
+ • To train the Logistic Regression model, I have used the Class ‘LogisticRegression’ from the 
    scikit-learn library. Below is the code which has been 
    used to train the model.
  
@@ -143,8 +174,11 @@ Chapter 8
 Validation and Deployment
 In this section, we will delve into the evaluation of the testing set results and the deployment strategy for our machine learning model.
 Model Performance Metrics:
+
 • Accuracy: The ratio of correctly predicted instances to total instances. Useful but can be misleading for imbalanced datasets.
+
 • Confusion Matrix: A table showing true/false positives and negatives, providing detailed performance insights.
+
 • Precision, Recall, and F1 Score: Precision measures the accuracy of positive predictions, recall gauges the model's ability to find all positive 
   instances, and the F1 score harmonizes these metrics into a single value.
  
