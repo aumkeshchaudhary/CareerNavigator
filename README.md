@@ -168,10 +168,12 @@ Referenced study materials for this project:
 
 • Dataset: Taken from Kaggle titled ‘70k+ job Applicants Data’,
   source: https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data- human-resource/code
+
 • The idea of categorizing Countries into continents:
   ‘Bias_Detection_In_Recruitment_AI_with_LIME byDonghyeok-Lee’,
    source: https://www.kaggle.com/code/leedonghyeok/1- bias-detection-in-recruitment-ai- 
    with-lime
+
 • For the Study of Machine Learning: ‘Udemy’,
   source: https://www.udemy.com/share/101WfW3@iPsaByEcWsmnT 7Yz58VIXS9jcIr7WxV- NxXamQ9d1Fom1ZzmrWPlesFVKDzTbgQSkA==/
   
