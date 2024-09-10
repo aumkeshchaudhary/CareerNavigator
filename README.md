@@ -30,19 +30,19 @@ Contents
 
 2. Chapter 2: Dataset
 
-3: Importing and Cleaning the Dataset
+3: Chapter 3: Importing and Cleaning the Dataset
 
-4: Categorical Encoding
+4: Chapter 4: Categorical Encoding
 
-5: Splitting and Feature Scaling
+5: Chapter 5: Splitting and Feature Scaling
 
-6: Logistic Regression
+6: Chapter 6: Logistic Regression
 
-7: Decision Tree Classification
+7: Chapter 7: Decision Tree Classification
 
-8: Validation and Deployment
+8: Chapter 8: Validation and Deployment
 
-9: Conclusion and Future work
+9: Chapter 9: Conclusion and Future work
 
 Chapter 1
 
