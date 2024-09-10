@@ -26,23 +26,23 @@ As we approach the end of this project, our collaborative efforts are propelling
 
 Contents
 
-1. Chapter 1: Introduction
+  Chapter 1: Introduction
 
-2. Chapter 2: Dataset
+  Chapter 2: Dataset
 
-3: Chapter 3: Importing and Cleaning the Dataset
+  Chapter 3: Importing and Cleaning the Dataset
 
-4: Chapter 4: Categorical Encoding
+  Chapter 4: Categorical Encoding
 
-5: Chapter 5: Splitting and Feature Scaling
+  Chapter 5: Splitting and Feature Scaling
 
-6: Chapter 6: Logistic Regression
+  Chapter 6: Logistic Regression
 
-7: Chapter 7: Decision Tree Classification
+  Chapter 7: Decision Tree Classification
 
-8: Chapter 8: Validation and Deployment
+  Chapter 8: Validation and Deployment
 
-9: Chapter 9: Conclusion and Future work
+  Chapter 9: Conclusion and Future work
 
 Chapter 1
 
