@@ -3,7 +3,7 @@
 As the Project Head for CareerNavigator, I directed the data processing and feature engineering phases, ensuring precise and efficient handling of data. I evaluated several machine learning algorithms, including logistic regression and decision trees, ultimately selecting Kernel-SVM for its superior accuracy. I meticulously prepared the final report and delivered a detailed presentation to the IIT Patna evaluation committee, highlighting technical details and performance metrics to effectively communicate our project's achievements. Here is the detailed analysis of my role in the development of the 'CareerNavigator'.
 
 
-                       CAREER-NAVIGATOR: MACHINE LEARNING DRIVEN EMPLOYMENT FORECASTING
+                         CAREER-NAVIGATOR: MACHINE LEARNING DRIVEN EMPLOYMENT FORECASTING
  
  
 Summary of the Project
