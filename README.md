@@ -1,5 +1,7 @@
 # CareerNavigator 🎯
 
+
+
 ## Overview
 CareerNavigator is a machine learning-based employability prediction tool designed to help candidates assess their employment prospects. By analyzing various professional and personal attributes, the model provides reliable predictions on candidates' employability status, enabling them to make informed decisions about their career paths.
 
@@ -42,8 +44,6 @@ The model uses a dataset containing 73,462 entries with 15 features including:
 5. Validation
 6. Deployment
 
-## Deployment
-The model is live and accessible on Hugging Face Spaces. Try out CareerNavigator at: [CareerNavigator Demo](https://huggingface.co/spaces/Aumkeshchy2003/CareerNavigator)
 
 ## Dataset Source
 The dataset is sourced from Kaggle: [70k+ Job Applicants Data](https://www.kaggle.com/datasets/ayushtankha/70k-job-applicants-data-human-resource)
