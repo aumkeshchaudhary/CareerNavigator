@@ -6,7 +6,6 @@ CareerNavigator is a machine learning-based employability prediction tool design
 ## Features
 - Comprehensive analysis of candidate profiles
 - Machine learning-powered predictions
-- Multiple classification models including KNN, SVM, Kernel SVM, Random Forest, Naive Bayes, Logistic Regression, and Decision Tree
 - Achieved 80% accuracy using Kernel-SVM model
 - Data preprocessing and feature engineering for optimal performance
 
@@ -34,7 +33,6 @@ The model uses a dataset containing 73,462 entries with 15 features including:
 - Pandas
 - NumPy
 - Matplotlib
-- Flask (for API)
 
 ### Model Pipeline
 1. Data Preprocessing
